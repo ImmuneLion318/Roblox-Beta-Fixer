@@ -44,18 +44,16 @@ namespace Nihon
                 string[] Directories = Directory.GetDirectories(Environment.GetEnvironmentVariable("LocalAppData") + "\\Roblox\\Versions");
                 foreach (string Files in Directories)
                 {
-                    if (File.Exists(Files + "\\RobloxPlayerBeta.exe"))
-                    {
-                        Path = Files;
-                        break;
-                    }
-
-                    else
+                    /* Thanks To Iskra For Correcting Me On This. */
+                    if (!File.Exists($"{Files}\\RobloxPlayerBeta.exe"))
                     {
                         Utilities.Write("Couldn't Find RobloxPlayerBeta.exe", true);
                         Thread.Sleep(3000);
                         Process.GetCurrentProcess().Kill();
+                        break;
                     }
+
+                    Path = Files;
                 }
                 string ExecutablePath = Path + "\\RobloxPlayerBeta.exe";
 
