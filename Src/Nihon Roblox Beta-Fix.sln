@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nihon Roblox Beta-Fix", "Nihon Roblox Beta-Fix\Nihon Roblox Beta-Fix.csproj", "{2ABF6EEC-EBBE-4D09-9393-C28BBD461715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABF6EEC-EBBE-4D09-9393-C28BBD461715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABF6EEC-EBBE-4D09-9393-C28BBD461715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABF6EEC-EBBE-4D09-9393-C28BBD461715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABF6EEC-EBBE-4D09-9393-C28BBD461715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0A2B442-8F4B-430A-BAF6-7957A2E17884}
+	EndGlobalSection
+EndGlobal
