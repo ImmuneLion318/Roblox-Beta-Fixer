@@ -71,6 +71,7 @@ namespace Nihon
 
                 ZipFile.ExtractToDirectory(Path + "\\Temp.zip", Path);
                 Utilities.Write("Finished Installation, Please Run Roblox And See If This Fix Worked.");
+                /* Doesn't Delete Temp.zip Was Too Lazy To Do This Lol. */
             }
         }
     }
