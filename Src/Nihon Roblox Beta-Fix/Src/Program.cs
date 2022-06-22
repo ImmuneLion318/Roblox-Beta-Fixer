@@ -44,7 +44,7 @@ namespace Nihon
                 string[] Directories = Directory.GetDirectories(Environment.GetEnvironmentVariable("LocalAppData") + "\\Roblox\\Versions");
                 foreach (string Files in Directories)
                 {
-                    /* Thanks To Iskra For Correcting Me On This. */
+                    /* Thanks To Iskra For Correcting Me On This, The Else Statement Was Redundant. */
                     if (!File.Exists($"{Files}\\RobloxPlayerBeta.exe"))
                     {
                         Utilities.Write("Couldn't Find RobloxPlayerBeta.exe", true);
